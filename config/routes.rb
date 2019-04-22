@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :professors
   resources :pessoas
   resources :enderecos
   resources :cidades
